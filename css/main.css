@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    margin: 0px;
+    padding:0px;
+}
+h1, h2, h3, h4 {
+    color: rgb(21, 150, 21);
+}
+nav,ul,li, a {
+    text-decoration:none;
+    display: inline;
+    color: chocolate;
+}
+div {
+    
+}

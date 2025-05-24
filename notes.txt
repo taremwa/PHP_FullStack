@@ -1,13 +1,16 @@
 SEMANTIC HTML
 ------------------------------
 header, main, section, article, aside, nav(ul), footer, figure
- (sect --> same semantic meaning
-artic --> referenced with same meaning regardless of use)
-  [stripe | mdn moz]
+ (section --> same semantic meaning
+article --> referenced with same meaning regardless of use)
+  [amazon | stripe | mdn moz]
 push to git
 -----------------------------
 CSS
 #################
 selctors, box-model(margin, padding, border-border styles)
 display (block & inline elements, div,spans)
-position(z-index)
+position(inline-block)
+z-index
+flex(flexdirection-[column, clm/row reverse] | flex-wrap (wrap-reverse) | flex-flow | justify-content)
+flex-flow(direction & wrap)

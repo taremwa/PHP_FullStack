@@ -9,8 +9,8 @@ push to git
 CSS
 #################
 selctors, box-model(margin, padding, border-border styles)
-display (block & inline elements, div,spans)
-position(inline-block)
+display (block & inline (inline-block) elements, div,spans)
 z-index
+position(relative, absolute, static, fixed, sticky)
 flex(flexdirection-[column, clm/row reverse] | flex-wrap (wrap-reverse) | flex-flow | justify-content)
 flex-flow(direction & wrap)

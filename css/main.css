@@ -2,15 +2,127 @@ body {
     background-color: bisque;
     margin: 0px;
     padding:0px;
+    line-height: 1.5rem;
 }
 h1, h2, h3, h4 {
     color: rgb(21, 150, 21);
 }
-nav,ul,li, a {
-    text-decoration:none;
-    display: inline;
-    color: chocolate;
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
-div {
+
+.navbar {
+    background-color: #ff9a3c;
+    height: 80px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    text-decoration-thickness: 6px;
+}
+
+.header {
+    background-color: #f28b2b;
+}
+
+.header .container {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    max-height: 500px;
+}
+.header h1 {
+    font-size: 5rem;
+    color: rgb(67, 80, 76);
+    margin-top: 40px;
+    line-height: 4rem;
+}
+.header p{
+    font-size: 1.8rem;
+    margin-top: 70px;
+    line-height: 2.5rem;
+    /* color: #54BFB5; */
+}
+.header img {
+    max-width: 500px;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    flex: 1;
+    background-color: #F2BA52;
+    margin: 20px;
+    border-radius: 6px;
+    padding: 15px;
     
+}
+.box h2 {
+    color: rgb(67, 80, 76);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.box i {
+    margin-right: 8px;
+    color: #54BFB5;
+    font-size: 2.7rem;
+}
+.box p{
+    font-size: 1.2rem;
+    color: rgb(67, 80, 76);
+    font-weight: 10px;
+}
+
+@media (max-width:1060px) {
+    .navbar .container {
+        margin: 0 auto;
+    }
+    .header .container {
+        flex-direction: column;
+        max-height: 900px;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+@media (max-width:798px) {
+    .header .container {
+        max-height: 1200px;
+    }
+    .boxes .container {
+        flex-direction: column;
+    }
 }

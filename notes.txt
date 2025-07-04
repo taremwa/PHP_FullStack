@@ -14,3 +14,10 @@ z-index
 position(relative, absolute, static, fixed, sticky)
 flex(flexdirection-[column, clm/row reverse] | flex-wrap (wrap-reverse) | flex-flow | justify-content)
 flex-flow(direction & wrap)
+############################
+PROJECTS
+html & css
+forms
+flex and grid layout
+zomato
+netflix | others (bootstrap)

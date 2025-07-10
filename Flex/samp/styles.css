@@ -1,0 +1,48 @@
+body {
+    font-size: 16px;
+    background-color: #eaf4f4;
+    line-height: 1.5;
+}
+
+.navbar {
+    background-color: #006d77;
+    height: 70px;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #83c5be;
+}
+
+.header {
+    background: #83c5be;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    max-height: 500px;
+    padding: 20px 0;
+}
+
+.box {
+    background-color: #006d77;
+}
+
+@media (max-width: 825px) {
+    .header .container,
+    .boxes .container {
+        flex-direction: column;
+    }
+}

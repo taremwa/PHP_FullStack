@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form elements</title>
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form action="#">
+        <fieldset>
+            <legend>Bio data</legend>
+            <label for="name">Name</label>
+            <input type="text" placeholder="fill your name" id="name" required>
+
+            <label for="email">email ID</label>
+            <input type="email" placeholder="fill in a valid email" id="email" value="email" required>
+
+            <p><label for="password">Password</label>
+            <input type="password" placeholder="type password" id="password" required></p>
+
+            <p>select gender</p>
+            <label for="female">Female:</label>
+            <input type="radio" value="female" id="female" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+
+        </fieldset>
+        <!-- <input type="button" value="submit"> -->
+    </form>
+
+    <form action="#">
+        <fieldset>
+            <legend>Reason</legend>
+            <textarea name="referral" id="referral" placeholder="Reason for referral" cols="50"rows="5"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

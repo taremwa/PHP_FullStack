@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: green;
+    height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 14px;
+    font-size: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border:2px solid #ccc;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+} 
+.search-container button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background-color: darkgreen;
+}
+
+
+/* form input {
+    margin-right: 16px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    padding: 6px;
+    border: none;
+    outline: none;
+}
+
+form button {
+    border-radius: 15px;
+    padding: 5px;
+    color: darkgreen;
+    background-color: #fff;
+    font-size: 1.3rem;
+} */
+
+
+
+
+/*
+<link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+*/

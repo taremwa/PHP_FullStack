@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>Dashboard</h2>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item active">
+                        <span>🏠</span>
+                        <span>Dashboard</span>
+                    </li>
+                    <li class="nav-item">
+                        <span>📊</span>
+                        <span>Analytics</span>
+                    </li>
+                    <li class="nav-item">
+                        <span>👥</span>
+                        <span>Users</span>
+                    </li>
+                    <li class="nav-item">
+                        <span>🛍️</span>
+                        <span>Products</span>
+                    </li>
+                    <li class="nav-item">
+                        <span>⚙️</span>
+                        <span>Settings</span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle">☰</button>
+                    <h1>Welcome Back!</h1>
+                </div>
+                <div class="header-right">
+                    <div class="user-menu">
+                        <span>John Doe</span>
+                        <div class="avatar">JD</div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Cards Grid -->
+            <section class="cards-grid">
+                <div class="card">
+                    <h3>Total Revenue</h3>
+                    <p class="number">$24,580</p>
+                    <span class="trend up">+12%</span>
+                </div>
+                <div class="card">
+                    <h3>Users</h3>
+                    <p class="number">1,254</p>
+                    <span class="trend up">+8%</span>
+                </div>
+                <div class="card">
+                    <h3>Orders</h3>
+                    <p class="number">324</p>
+                    <span class="trend down">-3%</span>
+                </div>
+                <div class="card">
+                    <h3>Conversion Rate</h3>
+                    <p class="number">4.2%</p>
+                    <span class="trend up">+2%</span>
+                </div>
+                
+                <!-- Larger Cards -->
+                <div class="card wide">
+                    <h3>Sales Overview</h3>
+                    <div class="chart-placeholder">Chart Area</div>
+                </div>
+                <div class="card">
+                    <h3>Recent Activity</h3>
+                    <ul class="activity-list">
+                        <li>New user registered</li>
+                        <li>Order #1234 completed</li>
+                        <li>Product updated</li>
+                    </ul>
+                </div>
+                <div class="card tall">
+                    <h3>Top Products</h3>
+                    <ul class="product-list">
+                        <li>Product A - 234 sales</li>
+                        <li>Product B - 189 sales</li>
+                        <li>Product C - 156 sales</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
